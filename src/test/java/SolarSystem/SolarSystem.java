@@ -15,6 +15,8 @@ public class SolarSystem {
         xros.temp="2452kv;" ;
 
         xros.size="0km";
+
+        System.out.println(",,,");
     }
 
 
