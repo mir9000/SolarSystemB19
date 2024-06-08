@@ -1,6 +1,6 @@
 package SolarSystem;
 
-public class solarSystem {
+public class SolarSystem {
 
     public static void main(String[] args) {
         SolarSystemBase solar = new SolarSystemBase();
@@ -8,6 +8,13 @@ public class solarSystem {
         solar.planet="2";
         solar.star="2";
         System.out.println("the solar system is ready");
+
+        //....
+        FeatureSun xros=new FeatureSun();
+        xros.color="pink";
+        xros.temp="2452kv;" ;
+
+        xros.size="0km";
     }
 
 
